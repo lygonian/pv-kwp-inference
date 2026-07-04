@@ -1,0 +1,8 @@
+project_id,invoice_number,line_id,position_title,quantity,unit,watt_peak,montage_kwp,offer_kwp
+PV-DEMO-001,INV-1001,1,Solar module black frame 450 W,20,pcs,450,9.0,9.0
+PV-DEMO-001,INV-1001,2,Inverter hybrid,1,pcs,,9.0,9.0
+PV-DEMO-004,INV-1004,1,Solar module premium 500 W,2,pcs,500,1.0,1.0
+PV-DEMO-005,INV-1005,1,Mounting rail flat roof,1,lot,,4.5,4.8
+PV-DEMO-006,INV-1006,1,Planning offer fallback,1,lot,,,6.2
+PV-DEMO-007,INV-1007,1,Battery module control unit,1,pcs,500,,7.0
+NONPV-DEMO-008,INV-1008,1,Drywall renovation package,1,lot,,,

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pv-kwp-inference"
+version = "0.1.0"
+description = "Synthetic PV kWp inference from invoice positions."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE.md" }
+dependencies = ["pandas>=2.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+pv-kwp-inference = "pv_kwp_inference.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
